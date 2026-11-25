@@ -1,0 +1,37 @@
+{
+  "id": "crossval-142",
+  "workId": "sklearn.cross_val_score",
+  "version": "1.4.2",
+  "sha256": "7fe6ca5a52871ee6aa9ac2d37dc829cd90312fc947347e579ec6e8c7db993a00",
+  "url": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/8721245511de2f225ff5f9aa5f5fadce663cd4a3/sklearn/model_selection/_validation.py",
+  "reference": "https://github.com/scikit-learn/scikit-learn/blob/8721245511de2f225ff5f9aa5f5fadce663cd4a3/sklearn/model_selection/_validation.py",
+  "spans": [
+    {
+      "id": "groups",
+      "start": 599,
+      "end": 609
+    },
+    {
+      "id": "scoring",
+      "start": 611,
+      "end": 620
+    },
+    {
+      "id": "cv",
+      "start": 622,
+      "end": 633
+    }
+  ],
+  "targets": [
+    {
+      "id": "group-label-argument",
+      "question": "When metadata routing is enabled, which outer keyword receives the group labels? State the condition in the claim.",
+      "valueKind": "identifier"
+    },
+    {
+      "id": "metric-limit",
+      "question": "What is the maximum number of metrics permitted by cross_val_score?",
+      "valueKind": "number"
+    }
+  ]
+}

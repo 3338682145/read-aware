@@ -1,0 +1,37 @@
+{
+  "id": "crossval-132",
+  "workId": "sklearn.cross_val_score",
+  "version": "1.3.2",
+  "sha256": "2f37a849afed7e5cd9c48390d1e4077711cd0423a3ca3ed43b3071d468c45cf1",
+  "url": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/093e0cf14aff026cca6097e8c42f83b735d26358/sklearn/model_selection/_validation.py",
+  "reference": "https://github.com/scikit-learn/scikit-learn/blob/093e0cf14aff026cca6097e8c42f83b735d26358/sklearn/model_selection/_validation.py",
+  "spans": [
+    {
+      "id": "groups",
+      "start": 459,
+      "end": 462
+    },
+    {
+      "id": "scoring",
+      "start": 464,
+      "end": 473
+    },
+    {
+      "id": "cv",
+      "start": 475,
+      "end": 487
+    }
+  ],
+  "targets": [
+    {
+      "id": "group-label-argument",
+      "question": "For a group-aware splitter, which keyword receives the group labels in this documented release?",
+      "valueKind": "identifier"
+    },
+    {
+      "id": "metric-limit",
+      "question": "What is the maximum number of metrics permitted by cross_val_score?",
+      "valueKind": "number"
+    }
+  ]
+}

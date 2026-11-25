@@ -1,0 +1,23 @@
+{
+  "bun": "1.4.4",
+  "piAi": "1.5.0",
+  "piAgentCore": "1.5.0",
+  "provider": "openai-completions",
+  "baseUrl": "http://127.0.0.1:18883/v1",
+  "model": "reading-os-qwen2.5-1.5b",
+  "llamaCpp": "b7400",
+  "llamaLinuxX64Sha256": "1d9db19b6002dd1a86c71730f147b98e7810ab4ecfe874a6ada408dcf6e88801",
+  "weightsRepo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+  "weightsCommit": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+  "weightsFile": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "weightsSha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+  "threads": 8,
+  "contextTokens": 4096,
+  "parallel": 1,
+  "temperature": 0,
+  "seed": 42,
+  "generationsPerCase": 1,
+  "maxOutputTokens": 480,
+  "maxTotalOutputTokens": 960,
+  "timeoutMs": 90000
+}

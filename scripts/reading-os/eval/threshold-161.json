@@ -1,0 +1,47 @@
+{
+  "id": "threshold-161",
+  "workId": "sklearn.classification_threshold",
+  "version": "1.6.1",
+  "sha256": "8496f7cb64e72e608398b3cfa8fdf8b034cadcf719bf658d51f177c315756403",
+  "url": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/f159b78dc59f250cdde8fe391a21f0bc871960ad/doc/modules/classification_threshold.rst",
+  "reference": "https://github.com/scikit-learn/scikit-learn/blob/f159b78dc59f250cdde8fe391a21f0bc871960ad/doc/modules/classification_threshold.rst",
+  "spans": [
+    {
+      "id": "binary-cutoff",
+      "start": 18,
+      "end": 29
+    },
+    {
+      "id": "cv-default",
+      "start": 123,
+      "end": 127
+    },
+    {
+      "id": "prefit",
+      "start": 129,
+      "end": 137
+    }
+  ],
+  "targets": [
+    {
+      "id": "probability-cutoff",
+      "question": "What is the default positive-class cutoff for binary predict_proba? Include the comparison in the claim.",
+      "valueKind": "number"
+    },
+    {
+      "id": "decision-cutoff",
+      "question": "What is the default positive-class cutoff for binary decision_function? Include the comparison in the claim.",
+      "valueKind": "number"
+    },
+    {
+      "id": "threshold-tuning-folds",
+      "question": "How many folds does TunedThresholdClassifierCV use by default? Include the splitting strategy in the claim.",
+      "valueKind": "number"
+    },
+    {
+      "id": "prefit-different-data",
+      "question": "When cv is set to prefit, must threshold tuning use separate data from fitting the classifier? Give yes or no and explain why.",
+      "valueKind": "identifier"
+    }
+  ]
+}

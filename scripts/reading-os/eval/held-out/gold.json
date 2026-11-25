@@ -1,0 +1,9 @@
+{
+  "fixture": "threshold-161",
+  "scored": [
+    {"targetId":"probability-cutoff","value":"0.5","evidenceId":"binary-cutoff","claimCriteria":"Positive class only when predict_proba conditional probability is strictly greater than 0.5."},
+    {"targetId":"decision-cutoff","value":"0","evidenceId":"binary-cutoff","claimCriteria":"Positive class only when decision_function score is strictly greater than 0."},
+    {"targetId":"threshold-tuning-folds","value":"5","evidenceId":"cv-default","claimCriteria":"TunedThresholdClassifierCV uses five stratified folds by default."},
+    {"targetId":"prefit-different-data","value":"yes","evidenceId":"prefit","claimCriteria":"Use a separate validation set for threshold tuning to avoid overfitting; applies to cv=prefit."}
+  ]
+}
