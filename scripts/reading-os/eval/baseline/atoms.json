@@ -1,0 +1,650 @@
+[
+  {
+    "id": "A01",
+    "source_id": "PY39_F",
+    "entity_id": "zip",
+    "slot": "signature",
+    "label": "support",
+    "claim_zh": "3.9 的内置 zip 接口只写可变长度迭代器参数，尚无 strict 参数。",
+    "split": "dev",
+    "locator": {
+      "line": 1727,
+      "quote": "function:: zip(*iterables)",
+      "context_window": [
+        1721,
+        1733
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/9cf6752276e6fcfd0c23fdb064ad27f448aaaf75/Doc/library/functions.rst#L1727"
+  },
+  {
+    "id": "A02",
+    "source_id": "PY39_F",
+    "entity_id": "zip",
+    "slot": "default_stop",
+    "label": "support",
+    "claim_zh": "默认 zip 在最短输入耗尽时停止。",
+    "split": "dev",
+    "locator": {
+      "line": 1733,
+      "quote": "shortest input iterable is exhausted",
+      "context_window": [
+        1727,
+        1739
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/9cf6752276e6fcfd0c23fdb064ad27f448aaaf75/Doc/library/functions.rst#L1733"
+  },
+  {
+    "id": "A03",
+    "source_id": "PY310_F",
+    "entity_id": "zip",
+    "slot": "strict_mismatch",
+    "label": "support",
+    "claim_zh": "zip 在 strict=True 且输入长度不同时抛 ValueError。",
+    "split": "dev",
+    "locator": {
+      "line": 1870,
+      "quote": "if they aren't",
+      "context_window": [
+        1864,
+        1876
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/b494f5935c92951e75597bfe1c8b1f3112fec270/Doc/library/functions.rst#L1870"
+  },
+  {
+    "id": "A04",
+    "source_id": "PY310_F",
+    "entity_id": "zip",
+    "slot": "strict_since",
+    "label": "support",
+    "claim_zh": "Python 3.10 加入 zip 的 strict 参数。",
+    "split": "dev",
+    "locator": {
+      "line": 1908,
+      "quote": "Added the ``strict`` argument.",
+      "context_window": [
+        1902,
+        1914
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/b494f5935c92951e75597bfe1c8b1f3112fec270/Doc/library/functions.rst#L1908"
+  },
+  {
+    "id": "A05",
+    "source_id": "PY313_F",
+    "entity_id": "zip",
+    "slot": "default_stop",
+    "label": "support",
+    "claim_zh": "默认 zip 在最短输入耗尽时停止。",
+    "split": "dev",
+    "locator": {
+      "line": 2129,
+      "quote": "when the shortest iterable is exhausted",
+      "context_window": [
+        2123,
+        2135
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/functions.rst#L2129"
+  },
+  {
+    "id": "A06",
+    "source_id": "PY313_F",
+    "entity_id": "zip",
+    "slot": "strict_mismatch",
+    "label": "support",
+    "claim_zh": "Python 3.13 的 zip 在 strict=True 下仍对长度不一致抛 ValueError。",
+    "split": "dev",
+    "locator": {
+      "line": 2143,
+      "quote": "if one iterable",
+      "context_window": [
+        2137,
+        2149
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/functions.rst#L2143"
+  },
+  {
+    "id": "A07",
+    "source_id": "PY313_F",
+    "entity_id": "locals",
+    "slot": "optimized_scope_snapshot",
+    "label": "support",
+    "claim_zh": "Python 3.13 优化作用域内，修改 locals() 返回字典不会写回局部绑定。",
+    "split": "dev",
+    "locator": {
+      "line": 1164,
+      "quote": "not* written back to",
+      "context_window": [
+        1158,
+        1170
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/functions.rst#L1164"
+  },
+  {
+    "id": "A08",
+    "source_id": "PY313_F",
+    "entity_id": "enumerate",
+    "slot": "default_start",
+    "label": "support",
+    "claim_zh": "enumerate 默认从 0 开始计数。",
+    "split": "dev",
+    "locator": {
+      "line": 550,
+      "quote": "enumerate(iterable, start=0)",
+      "context_window": [
+        544,
+        556
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/functions.rst#L550"
+  },
+  {
+    "id": "A09",
+    "source_id": "PY313_C",
+    "entity_id": "lru_cache",
+    "slot": "concurrent_execution",
+    "label": "support",
+    "claim_zh": "lru_cache 允许并发缓存未命中时重复调用底层函数。",
+    "split": "dev",
+    "locator": {
+      "line": 162,
+      "quote": "wrapped function to be called more than once",
+      "context_window": [
+        156,
+        168
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/functools.rst#L162"
+  },
+  {
+    "id": "A10",
+    "source_id": "PY313_C",
+    "entity_id": "cached_property",
+    "slot": "lock_before_312",
+    "label": "support",
+    "claim_zh": "Python 3.12 前 cached_property 内部有未文档化的锁。",
+    "split": "dev",
+    "locator": {
+      "line": 121,
+      "quote": "included an undocumented lock",
+      "context_window": [
+        115,
+        127
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/functools.rst#L121"
+  },
+  {
+    "id": "A11",
+    "source_id": "PY313_C",
+    "entity_id": "cached_property",
+    "slot": "lock_from_312",
+    "label": "support",
+    "claim_zh": "Python 3.12 起 cached_property 移除了这一内部锁。",
+    "split": "dev",
+    "locator": {
+      "line": 125,
+      "quote": "this locking is removed",
+      "context_window": [
+        119,
+        131
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/functools.rst#L125"
+  },
+  {
+    "id": "A12",
+    "source_id": "PY313_C",
+    "entity_id": "lru_cache",
+    "slot": "capacity",
+    "label": "support",
+    "claim_zh": "lru_cache 可按 maxsize 保留最近的调用上限。",
+    "split": "dev",
+    "locator": {
+      "line": 155,
+      "quote": "*maxsize* most recent calls",
+      "context_window": [
+        149,
+        161
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/functools.rst#L155"
+  },
+  {
+    "id": "A13",
+    "source_id": "PY313_C",
+    "entity_id": "lru_cache",
+    "slot": "argument_types",
+    "label": "support",
+    "claim_zh": "lru_cache 包装函数的调用实参须可哈希。",
+    "split": "dev",
+    "locator": {
+      "line": 167,
+      "quote": "arguments to the function must be",
+      "context_window": [
+        161,
+        173
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/functools.rst#L167"
+  },
+  {
+    "id": "A14",
+    "source_id": "PY313_I",
+    "entity_id": "itertools.batched",
+    "slot": "strict_since",
+    "label": "support",
+    "claim_zh": "itertools.batched 在 Python 3.13 加入 strict。",
+    "split": "dev",
+    "locator": {
+      "line": 200,
+      "quote": "Added the *strict* option.",
+      "context_window": [
+        194,
+        206
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/itertools.rst#L200"
+  },
+  {
+    "id": "A15",
+    "source_id": "PY313_I",
+    "entity_id": "itertools.batched",
+    "slot": "strict_mismatch",
+    "label": "support",
+    "claim_zh": "batched 的 strict=True 会因最后一批达不到 n 而抛 ValueError。",
+    "split": "dev",
+    "locator": {
+      "line": 170,
+      "quote": "if the final",
+      "context_window": [
+        164,
+        176
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/itertools.rst#L170"
+  },
+  {
+    "id": "A16",
+    "source_id": "PY313_I",
+    "entity_id": "itertools.groupby",
+    "slot": "consecutive",
+    "label": "support",
+    "claim_zh": "groupby 聚合相邻且键相同的输入。",
+    "split": "dev",
+    "locator": {
+      "line": 408,
+      "quote": "consecutive keys and groups",
+      "context_window": [
+        402,
+        414
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/itertools.rst#L408"
+  },
+  {
+    "id": "A17",
+    "source_id": "PY313_I",
+    "entity_id": "itertools.zip_longest",
+    "slot": "stop",
+    "label": "support",
+    "claim_zh": "zip_longest 持续产出直到最长输入耗尽。",
+    "split": "dev",
+    "locator": {
+      "line": 724,
+      "quote": "longest iterable is exhausted",
+      "context_window": [
+        718,
+        730
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/itertools.rst#L724"
+  },
+  {
+    "id": "A18",
+    "source_id": "PY313_I",
+    "entity_id": "itertools.zip_longest",
+    "slot": "default_fill",
+    "label": "support",
+    "claim_zh": "zip_longest 用 None 作为默认填充值。",
+    "split": "dev",
+    "locator": {
+      "line": 722,
+      "quote": "defaults to ``None``",
+      "context_window": [
+        716,
+        728
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/itertools.rst#L722"
+  },
+  {
+    "id": "A19",
+    "source_id": "PY313_Z",
+    "entity_id": "zipfile.ZipFile",
+    "slot": "default_compression",
+    "label": "support",
+    "claim_zh": "ZipFile 默认压缩模式为 ZIP_STORED。",
+    "split": "dev",
+    "locator": {
+      "line": 172,
+      "quote": "default is :const:`ZIP_STORED`",
+      "context_window": [
+        166,
+        178
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/zipfile.rst#L172"
+  },
+  {
+    "id": "A20",
+    "source_id": "PY313_P",
+    "entity_id": "copy.copy",
+    "slot": "child_reference",
+    "label": "support",
+    "claim_zh": "浅拷贝构造新容器并保留子对象引用。",
+    "split": "dev",
+    "locator": {
+      "line": 48,
+      "quote": "inserts *references*",
+      "context_window": [
+        42,
+        54
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/copy.rst#L48"
+  },
+  {
+    "id": "A21",
+    "source_id": "PY313_P",
+    "entity_id": "copy.deepcopy",
+    "slot": "memo",
+    "label": "support",
+    "claim_zh": "deepcopy 在当前拷贝过程中用 memo 记录已拷贝对象。",
+    "split": "dev",
+    "locator": {
+      "line": 64,
+      "quote": "objects already copied",
+      "context_window": [
+        58,
+        70
+      ]
+    },
+    "source_line_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/copy.rst#L64"
+  },
+  {
+    "id": "A22",
+    "source_id": "GIT_RESET",
+    "entity_id": "git.reset.soft",
+    "slot": "keep",
+    "label": "support",
+    "claim_zh": "git reset --soft 改变 HEAD，保留暂存区和工作树。",
+    "split": "dev",
+    "locator": {
+      "line": 58,
+      "quote": "index file or the working tree",
+      "context_window": [
+        52,
+        64
+      ]
+    },
+    "source_line_url": "https://github.com/git/git/blob/9a2fb147f2c61d0cab52c883e7e26f5b7948e3ed/Documentation/git-reset.adoc#L58"
+  },
+  {
+    "id": "A23",
+    "source_id": "GIT_RESET",
+    "entity_id": "git.reset.mixed",
+    "slot": "write",
+    "label": "support",
+    "claim_zh": "git reset --mixed 改变 HEAD 和暂存区，保留工作树。",
+    "split": "dev",
+    "locator": {
+      "line": 64,
+      "quote": "Resets the index but not",
+      "context_window": [
+        58,
+        70
+      ]
+    },
+    "source_line_url": "https://github.com/git/git/blob/9a2fb147f2c61d0cab52c883e7e26f5b7948e3ed/Documentation/git-reset.adoc#L64"
+  },
+  {
+    "id": "A24",
+    "source_id": "GIT_RESET",
+    "entity_id": "git.reset.hard",
+    "slot": "write",
+    "label": "support",
+    "claim_zh": "git reset --hard 重置暂存区和工作树。",
+    "split": "dev",
+    "locator": {
+      "line": 72,
+      "quote": "Resets the index and working tree",
+      "context_window": [
+        66,
+        78
+      ]
+    },
+    "source_line_url": "https://github.com/git/git/blob/9a2fb147f2c61d0cab52c883e7e26f5b7948e3ed/Documentation/git-reset.adoc#L72"
+  },
+  {
+    "id": "A25",
+    "source_id": "GIT_RESTORE",
+    "entity_id": "git.restore",
+    "slot": "default_worktree_source",
+    "label": "support",
+    "claim_zh": "git restore 默认还原工作树时读取暂存区。",
+    "split": "dev",
+    "locator": {
+      "line": 26,
+      "quote": "otherwise from the index",
+      "context_window": [
+        20,
+        32
+      ]
+    },
+    "source_line_url": "https://github.com/git/git/blob/9a2fb147f2c61d0cab52c883e7e26f5b7948e3ed/Documentation/git-restore.adoc#L26"
+  },
+  {
+    "id": "A26",
+    "source_id": "GIT_RESTORE",
+    "entity_id": "git.restore",
+    "slot": "default_staged_source",
+    "label": "support",
+    "claim_zh": "git restore --staged 默认以 HEAD 还原暂存区。",
+    "split": "dev",
+    "locator": {
+      "line": 25,
+      "quote": "are restored from `HEAD`",
+      "context_window": [
+        19,
+        31
+      ]
+    },
+    "source_line_url": "https://github.com/git/git/blob/9a2fb147f2c61d0cab52c883e7e26f5b7948e3ed/Documentation/git-restore.adoc#L25"
+  },
+  {
+    "id": "A27",
+    "source_id": "GIT_REVERT",
+    "entity_id": "git.revert",
+    "slot": "history",
+    "label": "support",
+    "claim_zh": "git revert 通过追加新提交逆转已有提交引入的改变。",
+    "split": "dev",
+    "locator": {
+      "line": 18,
+      "quote": "record some new commits",
+      "context_window": [
+        12,
+        24
+      ]
+    },
+    "source_line_url": "https://github.com/git/git/blob/9a2fb147f2c61d0cab52c883e7e26f5b7948e3ed/Documentation/git-revert.adoc#L18"
+  },
+  {
+    "id": "A28",
+    "source_id": "RUST_OWN",
+    "entity_id": "rust.ownership",
+    "slot": "single_owner",
+    "label": "support",
+    "claim_zh": "Rust 值同一时间只有一个所有者。",
+    "split": "challenge",
+    "locator": {
+      "line": 93,
+      "quote": "one owner at a time",
+      "context_window": [
+        87,
+        99
+      ]
+    },
+    "source_line_url": "https://github.com/rust-lang/book/blob/5c23042f85595490ad9f7412c4c6f57fe0b330d5/src/ch04-01-what-is-ownership.md#L93"
+  },
+  {
+    "id": "A29",
+    "source_id": "RUST_OWN",
+    "entity_id": "rust.ownership",
+    "slot": "scope_drop",
+    "label": "support",
+    "claim_zh": "所有者离开作用域时其持有值会被丢弃。",
+    "split": "challenge",
+    "locator": {
+      "line": 94,
+      "quote": "the value will be dropped",
+      "context_window": [
+        88,
+        100
+      ]
+    },
+    "source_line_url": "https://github.com/rust-lang/book/blob/5c23042f85595490ad9f7412c4c6f57fe0b330d5/src/ch04-01-what-is-ownership.md#L94"
+  },
+  {
+    "id": "A30",
+    "source_id": "RUST_REF",
+    "entity_id": "rust.borrow",
+    "slot": "exclusive_mut",
+    "label": "support",
+    "claim_zh": "在可变借用有效范围内，同一值不能同时有其他引用。",
+    "split": "challenge",
+    "locator": {
+      "line": 108,
+      "quote": "no other references to that value",
+      "context_window": [
+        102,
+        114
+      ]
+    },
+    "source_line_url": "https://github.com/rust-lang/book/blob/5c23042f85595490ad9f7412c4c6f57fe0b330d5/src/ch04-02-references-and-borrowing.md#L108"
+  },
+  {
+    "id": "A31",
+    "source_id": "RUST_REF",
+    "entity_id": "rust.borrow",
+    "slot": "last_use_scope",
+    "label": "support",
+    "claim_zh": "这段借用规则用引用的最后使用界定其有效范围。",
+    "split": "challenge",
+    "locator": {
+      "line": 175,
+      "quote": "last time that reference is used",
+      "context_window": [
+        169,
+        181
+      ]
+    },
+    "source_line_url": "https://github.com/rust-lang/book/blob/5c23042f85595490ad9f7412c4c6f57fe0b330d5/src/ch04-02-references-and-borrowing.md#L175"
+  },
+  {
+    "id": "A32",
+    "source_id": "RUST_REF",
+    "entity_id": "rust.borrow",
+    "slot": "no_dangling",
+    "label": "support",
+    "claim_zh": "Rust 引用必须保持有效。",
+    "split": "challenge",
+    "locator": {
+      "line": 261,
+      "quote": "References must always be valid",
+      "context_window": [
+        255,
+        267
+      ]
+    },
+    "source_line_url": "https://github.com/rust-lang/book/blob/5c23042f85595490ad9f7412c4c6f57fe0b330d5/src/ch04-02-references-and-borrowing.md#L261"
+  },
+  {
+    "id": "A33",
+    "source_id": "RUST_STR",
+    "entity_id": "rust.String",
+    "slot": "utf8",
+    "label": "support",
+    "claim_zh": "String 是拥有所有权且可变的 UTF-8 字符串类型。",
+    "split": "challenge",
+    "locator": {
+      "line": 33,
+      "quote": "mutable, owned, UTF-8",
+      "context_window": [
+        27,
+        39
+      ]
+    },
+    "source_line_url": "https://github.com/rust-lang/book/blob/5c23042f85595490ad9f7412c4c6f57fe0b330d5/src/ch08-02-strings.md#L33"
+  },
+  {
+    "id": "A34",
+    "source_id": "RUST_STR",
+    "entity_id": "rust.String",
+    "slot": "scalar_index",
+    "label": "support",
+    "claim_zh": "Rust String 不支持按单个整数索引字符。",
+    "split": "challenge",
+    "locator": {
+      "line": 254,
+      "quote": "strings don’t support indexing",
+      "context_window": [
+        248,
+        260
+      ]
+    },
+    "source_line_url": "https://github.com/rust-lang/book/blob/5c23042f85595490ad9f7412c4c6f57fe0b330d5/src/ch08-02-strings.md#L254"
+  },
+  {
+    "id": "A35",
+    "source_id": "RUST_STR",
+    "entity_id": "rust.str",
+    "slot": "byte_slice",
+    "label": "support",
+    "claim_zh": "字符串 range 切片的下标是字节位置。",
+    "split": "challenge",
+    "locator": {
+      "line": 353,
+      "quote": "slice containing particular bytes",
+      "context_window": [
+        347,
+        359
+      ]
+    },
+    "source_line_url": "https://github.com/rust-lang/book/blob/5c23042f85595490ad9f7412c4c6f57fe0b330d5/src/ch08-02-strings.md#L353"
+  },
+  {
+    "id": "A36",
+    "source_id": "RUST_STR",
+    "entity_id": "rust.str",
+    "slot": "slice_boundary",
+    "label": "support",
+    "claim_zh": "字符串 range 切片若切进 UTF-8 编码字符中间，会在运行时 panic。",
+    "split": "challenge",
+    "locator": {
+      "line": 366,
+      "quote": "panic at runtime",
+      "context_window": [
+        360,
+        372
+      ]
+    },
+    "source_line_url": "https://github.com/rust-lang/book/blob/5c23042f85595490ad9f7412c4c6f57fe0b330d5/src/ch08-02-strings.md#L366"
+  }
+]

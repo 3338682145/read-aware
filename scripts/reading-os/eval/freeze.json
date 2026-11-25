@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "sha256": {
+    "baseline/README.md": "c78a047a41306bccc0fe441d7a864777ea940a0acd1e77a3777e038914719c00",
+    "baseline/atoms.json": "9892111db8640e2decc93fca3c89ed031c68123919dc60f26a3e754d6ac94016",
+    "baseline/cases.json": "83c5f090c93b17dc7b16d7a84512770fdaf6f5c5bf73957227ba5e15a6e94a1f",
+    "baseline/check.py": "120b9f8ec212cd12b7791b1ed711f9eb9b811e2e5c93baa9f569716841b17359",
+    "baseline/fsrs-results.json": "18c6dc268750e1c6ee612a643da7c85067d3cf969fa89cacfd3fe4194b7133c8",
+    "baseline/fsrs-smoke.mjs": "cc6103d0dc33fc7cdbf633a7b920192f8673b22e0f879790454a0bd406bacfc9",
+    "baseline/results.json": "0c72821ad39adaa5ed2be83a9b96208dac2c574c473b08b44c7e99abf7d0d6a7",
+    "baseline/sources.json": "5bdb83f1b66b68b3366c7ff7e2428569a1a073c81e9cf44fd5f2c931970423d8",
+    "crossval-132.json": "718e579b37dbd19597eefb1e993bb8ddf04a4c8206762816e7318a5b22745f4d",
+    "crossval-142.json": "8c549614de8b8f3ce4235d36b0870912b6b8003bac1fe694aa674087ca4ee127",
+    "freeze.py": "133a4992cd874b17f0f0c90181ffe7e7cdff16152f0dba11efa9bab35b21056d",
+    "held-out/gold.json": "22fad0e860b9dd85a2b17f563407e98e0ac0ba6204e97efc3ebba2453abcb836",
+    "model.json": "79f46b21acba9a09e96fe8b86e1087b916d825728430eeb49f670039260c23fa",
+    "standard.md": "3edc53b9b6ad28908c651a29a967e9f85c89afd87c755128fe159a293b1398dd",
+    "threshold-161.json": "927d7678a9199b687a1c183e8bcc48fdcb2877b71c57c2229c681ec048bd0be1",
+    "development-gold.json": "43495e54464ac79ba41224e652abd361429dbfacaf2cd251a5b0e39b4a8cd88c"
+  }
+}

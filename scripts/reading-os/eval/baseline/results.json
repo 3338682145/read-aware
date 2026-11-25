@@ -1,0 +1,88 @@
+{
+  "verified_source_files": 13,
+  "verified_gold_anchor_locations": 36,
+  "fixture_counts": {
+    "gold_atoms": 36,
+    "dedup": 30,
+    "citations": 22,
+    "updates": 12,
+    "extraction_negatives": 6,
+    "learning": 8,
+    "skills": 6
+  },
+  "dedup": {
+    "NFC_casefold_literal": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 7,
+      "tn": 20,
+      "precision": 0.6667,
+      "recall": 0.2222,
+      "f1": 0.3333
+    },
+    "labeled_entity_and_slot": {
+      "tp": 9,
+      "fp": 2,
+      "fn": 0,
+      "tn": 19,
+      "precision": 0.8182,
+      "recall": 1.0,
+      "f1": 0.9
+    },
+    "plus_labeled_polarity": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "tn": 21,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "citations": {
+    "whole_corpus_literal": {
+      "tp": 12,
+      "fp": 9,
+      "fn": 0,
+      "tn": 1,
+      "precision": 0.5714,
+      "recall": 1.0,
+      "f1": 0.7273
+    },
+    "cited_document_literal": {
+      "tp": 12,
+      "fp": 8,
+      "fn": 0,
+      "tn": 2,
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1": 0.75
+    },
+    "hash_line_visible_and_approved_span": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "tn": 10,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "update": {
+    "no_scope": {
+      "exact": 9,
+      "total": 12,
+      "misses": [
+        "U03",
+        "U04",
+        "U05"
+      ]
+    },
+    "with_scope": {
+      "exact": 12,
+      "total": 12,
+      "misses": []
+    }
+  },
+  "limits": "Controlled fixtures. Manually assigned entity/slot/polarity, permitted spans and update features. No model or storage ran. No measured human learning effect."
+}

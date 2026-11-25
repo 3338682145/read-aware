@@ -1,0 +1,10 @@
+{
+  "crossval-132": [
+    {"targetId":"group-label-argument","value":"groups","evidenceId":"groups","claimCriteria":"Supply group labels through groups when using a group-aware splitter."},
+    {"targetId":"metric-limit","value":"1","evidenceId":"scoring","claimCriteria":"cross_val_score permits a single metric."}
+  ],
+  "crossval-142": [
+    {"targetId":"group-label-argument","value":"params","evidenceId":"groups","claimCriteria":"When metadata routing is enabled, supply groups inside params."},
+    {"targetId":"metric-limit","value":"1","evidenceId":"scoring","claimCriteria":"cross_val_score permits a single metric."}
+  ]
+}
